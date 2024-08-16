@@ -13,7 +13,7 @@ export function SongList(props) {
     <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
       { props.songs.map((song) => {
           return (
-            <div className="flex-none cursor-pointer" key={ song.id }>
+            <div onClick={() => props.onSongSelected(song)} className={`flex-none ${ song.preview_url != null ? "cursor-pointer" : "cursor-not-allowed" }`} key={ song.id }>
               <img
                 alt="thumbnail"
                 src={ song.album.images[0].url }
