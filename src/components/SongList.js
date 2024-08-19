@@ -1,7 +1,7 @@
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export function SongList(props) {
+export const SongList = (props) => {
   if (props.isLoading)
     return (
       <div className="inset-0 flex justify-center items-center">
