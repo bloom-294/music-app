@@ -1,7 +1,7 @@
 import { faPlayCircle, faStopCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export function Player(props) {
+export const Player = (props) => {
   console.log(1,props.song.preview_url);
   return (
     <footer className={`fixed bottom-0 w-full bg-gray-800 p-5
