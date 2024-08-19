@@ -4,6 +4,7 @@ import spotify from "./lib/spotify";
 import { Player } from "./components/Player";
 import { SearchInput } from "./components/SearchInput";
 import { Pagination } from "./components/Pagination";
+import logo from "./lib/images/logo.png";
 const limit = 20;
 
 const App = () => {
@@ -91,8 +92,9 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-900 text-white">
       <main className="flex-1 p-8 mb-20">
-        <header className="flex justify-between items-center mb-10">
-          <h1 className="text-4xl font-bold">Music App</h1>
+        <header className="flex justify-start items-center mb-10">
+          <img src={ logo } alt="logo" width={50} />
+          <h1 className="ml-4 text-4xl font-bold">Music App</h1>
         </header>
         <SearchInput onInputChange={ handleInputChange } onSubmit={ searchSongs } />
         <section>
