@@ -1,49 +1,33 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 音楽再生アプリ
 
-## Available Scripts
+- Spotify Web Api から楽曲を取得、再生するアプリです。
+- サンプルがない楽曲は再生されません。
 
-In the project directory, you can run:
+## Local
+- ` yarn install `
+- ` yarn start `
 
-### `npm start`
+## 使用技術
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React(18)
+- JavaScript
+- Tailwind CSS
+- axios
+  
+<img src="https://img.shields.io/badge/react-fffafa.svg?logo=react&style=for-the-badge" /><img src="https://img.shields.io/badge/JavaScript-fffafa.svg?logo=JavaScript&style=for-the-badge" />
+<img src="https://img.shields.io/badge/-TailwindCSS-fffafa.svg?logo=tailwindcss&style=for-the-badge" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 機能
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- プレイリスト表示
+- 曲の再生・停止
+- 検索・検索結果表示
 
 ## Preview
 
-### プレイリスト（チャート）表示
+### プレイリスト表示
 <img width="500" alt="ホーム画面" src="https://github.com/user-attachments/assets/01fdc552-fbf0-4626-b508-c68fe737e2c6">
 
 ### 検索結果
 <img width="500" alt="検索結果" src="https://github.com/user-attachments/assets/b5027383-0256-4dc2-946e-62e99696b60d">
-
